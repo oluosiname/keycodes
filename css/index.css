@@ -1,0 +1,56 @@
+body {
+  background-image: url("../assets/images/bg1.jpg");
+}
+
+.main{
+  min-height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.info {
+  margin: auto;
+  height: 10em;
+  line-height: 10em;
+  font-size: 5em;
+  font-family: monospace;
+}
+
+.key {
+  padding: 1em;
+  display: inline-block;
+  position: relative;
+  top: 20em;
+}
+
+.keycode {
+  font-size: 5em;
+  position: fixed;
+  top: 0;
+  display: inline-block;
+}
+
+.key, .keycode {
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.key__button {
+  margin-left: 25px;
+  box-sizing: border-box;
+  font-size: 22px;
+  text-align: center;;
+  color: #fff;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-color: #f2f2f2;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(top, #000 0%, #000000 80%);
+  font-family: sans-serif;
+  box-shadow: 0 0 1px #888,0 1px 0 #fff, 0 6px 0 #C0C0C0, 0 8px 17px rgba(#444, 0.4), 2px 1px 4px rgba(#444, 0.25), -2px 1px 4px rgba(#444, 0.25), 0 9px 16px rgba(#444, 0.1);
+}
